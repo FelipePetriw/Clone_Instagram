@@ -7,4 +7,5 @@ setInterval( () => {
     } else {
         imagem.style.opacity = 0;
     }
-}, 3000)
+}, 4000)
+

@@ -1,7 +1,7 @@
-body {
+.container-principal {
     background-color: #FAFAFA;
     width: 100vw;
-    height: 100vh;
+    height: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +17,13 @@ body {
     display: flex;
     flex-direction: column;
     width: 300px;
-    padding: 40px;
+    padding: 30px;
+}
+
+.logo {
+    width: 200px;
+    height: 60px;
+    align-self: center;
 }
 
 input {
@@ -38,21 +44,28 @@ button {
     cursor: pointer;
 }
 
+.icone-facebook {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    
+}
+
 .facebook {
     color: #385185;
     text-align: center;
     margin-top: 20px;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bold;
 }
 
 .esqueceu-senha {
-    color: #385185;
+    color: grey;
     text-align: center;
     cursor: pointer;
     font-size: 12px;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .imagens {
@@ -65,4 +78,65 @@ button {
     left: 153px;
     top: 27px;
     transition: ease-in-out 2s;
+}
+
+.container-conta {
+    border: 1px solid #D3D3D3; 
+    text-align: center;
+    margin-top: 10px;
+}
+
+.container-conta p {
+    font-size: 14px;
+}
+
+.container-conta p a {
+    color: #0095f6;
+    text-align: center;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.aplicativos p {
+    text-align: center;
+    font-size: 15px;
+    
+}
+
+.aplicativos img {
+    justify-content: center;
+    margin: 5px 1px 5px 15px;
+}
+
+.google-play {
+    width: 150px;
+    height: 60px;    
+}
+
+.microsoft {
+    width: 150px;
+    height: 50px;    
+}
+
+.container-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    color: #737373;
+    text-align: center;
+}
+
+footer a {
+    padding: 10px;
+    cursor: pointer;
+    
+}
+
+footer p {
+    margin-top: 35px;
+    text-align: center;
 }
