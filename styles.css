@@ -54,3 +54,14 @@ button {
     font-size: 12px;
     margin-top: 20px;
 }
+
+.imagens {
+    position: relative;
+}
+
+.img-insta {
+    height: 520px;
+    position: absolute;
+    left: 153px;
+    top: 27px;
+}
