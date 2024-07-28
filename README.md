@@ -6,7 +6,7 @@ Desenvolvimento de página web (clone) da página inicial do instagram quando ac
 
 ## 🎨 Layout
 
-![image]()
+![image](https://github.com/FelipePetriw/Clone_Instagram/blob/main/img/Apresenta%C3%A7%C3%A3o.png)
 
 
 ## 🛠 Tecnologias
